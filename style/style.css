@@ -1,3 +1,67 @@
-h1{
+/*Police d'écriture*/
+
+
+/*MAIN*/
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*BACKGROUND*/
+.one{
+    background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+}
+
+.two{
+    background-image: url('https://www.numerama.com//content/uploads/2015/09/codesourcelignes.jpg');
+}
+
+.three{
+    background-image: url('https://korii.slate.fr/sites/default/files/styles/1440x600/public/chris-ried-ieic5tq8ymk-unsplash.jpg');
+}
+
+.wrapper{
+    height: 100%;
+}
+
+.fixed{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    color: #eeeeee;
+    text-align: center;
+    display: table;
+}
+
+.fixed h2{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scroll{
+    background-color: aqua;
+    padding: 10px 70px;
+    color: black;
+}
+
+
+/*DIV en plein milieu de la page*/
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
     color: red;
+    font-weight: bold;
+    font-size: 60px;
+    border: 8px solid #000000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 270px;
+    padding: 50px;
+    text-align: center;
 }
